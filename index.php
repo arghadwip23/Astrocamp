@@ -1,3 +1,4 @@
+<center><h1> Helo arghadwip tumi amar hero 🥳<h1><center>
 <?php
 $to = "arghadwip23@gmail.com";
 $subject = "HTML email";
@@ -30,10 +31,10 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
 $headers .= 'From: <arghdwip24@gmail.com>' . "\r\n";
 $headers .= 'Cc: sarkarraja852@gmail.com' . "\r\n";
-
-if(mail($to,$subject,$message,$headers)){
+$mail = mail($to,$subject,$message,$headers);
+/*if($mail== true){
 echo("<h1>email sent you got it</h1>");
 }else{
 echo("<h1>sorry you failed</h1>")
-}
+}*/
 ?>

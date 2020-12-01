@@ -1,3 +1,24 @@
+
+
+<?php
+              
+if(isset($_POST['textdata']))
+{
+$data=$_POST['textdata'];
+
+$fp = fopen('data.txt', 'a');
+
+if($fp){
+fwrite($fp, $data);
+fclose($fp);
+echo $fp;
+}
+else{
+echo "<h1>sorry Argha dwip</h1>";
+}
+}
+else{
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,16 +35,6 @@
 </body>
 </html>
 
-
 <?php
-              
-if(isset($_POST['textdata']))
-{
-$data=$_POST['textdata'];
-
-$fp = fopen('data.txt', 'a');
-
-fwrite($fp, $data);
-fclose($fp);
 }
 ?>

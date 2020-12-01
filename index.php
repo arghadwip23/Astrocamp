@@ -1,36 +1,29 @@
-<center><h1> Helo arghadwip tumi amar hero 🥳<h1><center>
-<?php
-$to = "arghadwip23@gmail.com";
-$subject = "HTML email";
-
-$message = "
+<!DOCTYPE html>
 <html>
 <head>
-<title>HTML email</title>
+  <title>Store form data in .txt file</title>
 </head>
 <body>
-<p>This email contains HTML Tags!</p>
-<table>
-<tr>
-<th>Firstname</th>
-<th>Lastname</th>
-</tr>
-<tr>
-<td>John</td>
-<td>Doe</td>
-</tr>
-</table>
+  <form method="post">
+    Enter Your Text Here:<br>
+    <input type="text" name="textdata"><br>
+    <input type="submit" name="submit">
+    
+  </form>
+
 </body>
 </html>
-";
 
-// Always set content-type when sending HTML email
-$headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-// More headers
-$headers .= 'From: <arghdwip24@gmail.com>' . "\r\n";
-$headers .= 'Cc: sarkarraja852@gmail.com' . "\r\n";
-mail($to,$subject,$message,$headers)
+<?php
+              
+if(isset($_POST['textdata']))
+{
+$data=$_POST['textdata'];
 
+$fp = fopen('data.txt', 'a');
+
+fwrite($fp, $data);
+fclose($fp);
+}
 ?>

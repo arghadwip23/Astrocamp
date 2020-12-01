@@ -11,7 +11,7 @@ $fp = fopen('data.txt', 'w');
 if($fp){
 fwrite($fp, $data);
 fclose($fp);
-echo $fp;
+echo $fp . $data;
 }
 else{
 echo "<h1>sorry Argha dwip</h1>";

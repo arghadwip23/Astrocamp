@@ -6,7 +6,7 @@ if(isset($_POST['textdata']))
 {
 $data=$_POST['textdata'];
 
-$fp = fopen('data.txt', 'a');
+$fp = fopen('data.txt', 'w');
 
 if($fp){
 fwrite($fp, $data);

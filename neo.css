@@ -1,0 +1,68 @@
+/*.card{
+    
+}
+.card:nth-child('3'){
+    background: url(https://source.unsplash.com/1600x900/?nature,water);
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body{
+    font-size: 15pt;
+}
+.card h5{
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: Anton;
+}
+.card-header{
+    font-size: 1rem;
+    font-family: Acme;
+}
+.card{
+    font-family: "Yanone Kaffeesatz";
+    font-size: 1.5rem;
+}
+footer {
+    margin-top: 0;
+    background: #272833;
+    color: #8D8D91;
+    font-weight: 300;
+    font-size: 20px;
+}
+.navbar-brand{
+    font-family: Bangers;
+}
+nav div ul li:hover {
+    background: #8C8C8C;
+    color: #000000;
+}
+h1 span{
+    background: #FFF91EC4;
+}
+h1{
+    font-size: 2rem;
+    font-family: Acme;
+}
+input {
+    padding-top: 10px;
+    font-family: "Do Hyeon";
+    font-size: 30pt;
+    padding-bottom: 0;
+
+}
+#spin{
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin:0 auto;
+    font-size: 6rem;
+    animation: spin .001s infinite linear;
+}
+@keyframes spin {
+    from{transform:rotate(0deg);}
+    to{transform: rotate(360deg);}
+}

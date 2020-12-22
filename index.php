@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta property="og:title" content="Astronomy Picture Of The Day">
-    <meta property="og:description" content="Today;s featured photo publish by Nasa ">
-    <meta property="og:image" itemprop="image"  content="source.unsplash.com/user/nasa/256x256">
+    <meta property="og:description" content="Today's featured photo publish by Nasa ">
+    <meta property="og:image" itemprop="image"  content="https://astrocamp.herokuapp.com/thu.jpg">
     <meta property="og:url" content="astrocamp.herokuapp.com">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">

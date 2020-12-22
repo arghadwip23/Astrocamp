@@ -5,6 +5,7 @@ $('input').attr("max",today);
 
 //document.querySelector("#today").
 $(document).ready(function(){
+  alert('This site is created by Chidananda Ray Sarkar');
   var url = 'https://api.nasa.gov/planetary/apod?api_key=0CJ8z5h8A4broldhxPvZ5vQ0Rg0OKcRt9FnXtTzp' ;
 //calling ajax for homepage apode     
  function data(link){

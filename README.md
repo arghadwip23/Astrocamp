@@ -2,4 +2,4 @@
 get information about space 
 ***
 
-~~ A web-app 
+__A web-app to get daily featured photo published by nasa

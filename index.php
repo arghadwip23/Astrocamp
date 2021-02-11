@@ -25,7 +25,7 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">CHIDACREATION</a>
+    <a class="navbar-brand" href="#">ASTROCAMP</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -71,7 +71,7 @@
   <footer class="text-center">
       <br />
       ©All the copyrights are reserved <br />
-      Created & Maintenance ~ Chidananda Ray Sarkar
+      Created & Maintenance ~ Arghadwip Sarkar & Chidananda Ray Sarkar
   </footer>
   <!-- Project -->
   <script src="main.js"></script>
